@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Crete Round', serif !important;
+}
+.card{
+
+    width: 60%;
+    height: 60%;
+    
+    margin: auto;
+    margin-top: 40px;
+    /* margin-bottom: -40px; */
+    /* column-gap: -40px !important; */
+    }
+    @media only screen and (max-width: 450px){
+        .card{
+            width: 70% !important;
+        }
+    }
+
+.logo{
+   
+    margin-top : 5px;
+    margin-left: 5px;
+}
+.carticon,.accounticon{
+    padding-top: 0px;
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+.carticon:hover{
+    
+}
+.accounticon:hover{
+    
+}
+ul li {
+    margin: 3px;
+    padding-left: 5px;
+}
+ul{
+    padding-left: 15px !important;
+}
+
+.form,.btn{
+    border-radius: 25px !important;
+    outline: none;
+    justify-content: center;
+}
+.bton{
+    width: 80px;
+}
+.products{
+    background-color: #28a745;
+    
+    margin-top: 4px;
+    border-radius: 25px;
+    color: white !important;
+    width: px;
+    text-align: center;
+}
+.home:hover{
+    background-color: #28a745;
+    width: 80px;
+    margin-top: 4px;
+    border-radius: 25px;
+    color: white !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.home,.aboutus,.contactus{
+    margin-top: 4px;
+    color: gray !important;
+}
+.contactus{
+    width: 112px !important;
+}
+.aboutus{
+    width: 100px !important;
+}
+.home{
+    width: 80px !important;
+}
+.aboutus:hover{
+    background-color:  #28a745;
+    
+    margin-top: 4px;
+    border-radius: 25px;
+    color: white !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100px !important;
+}
+.contactus:hover{
+    background-color: #28a745;
+    
+    margin-top: 4px;
+    border-radius: 25px;
+    color: white !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 112px !important;
+}
+.heading{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.follow{
+    
+    padding-top: 23px;
+    
+
+}
+.follow p{
+    text-align: right;
+}
+@media only screen and (max-width: 800px){
+    .follow p{
+        text-align: center !important;
+    }
+}
+
+.socialicon{
+
+    
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.socialmar .fab {
+    margin-left: 15px;
+     /* background-color: #17a2b8; */
+    padding: 10px;
+    width: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #17a2b8 ;
+    
+    
+}
+@media only screen and (max-width: 800px)
+{
+    .socialicon{
+        text-align: center !important;
+    }
+}
+
+.socialmar .fab:hover{
+    background-color: #17a2b8;
+    color: white;
+
+
+}
+
+.copyright{
+    background-image: url(../images/jason-leung-Xaanw0s0pMk-unsplash.jpg) !important;
+    height: 40px !important;
+    padding-left: 25px;
+    padding-top: 10px;
+
+
+}
+
+.card{
+    margin-top: 8px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pagination li a{
+    border-radius: 25px;
+margin-top: 25px;
+    
+}
+
+.back li{
+    background-color: #17a2b8 !important ;
+}
